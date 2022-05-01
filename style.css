@@ -4,7 +4,8 @@
   height: 460px;
   border: none;
   border-radius: 10px;
-  box-shadow: 2px 2px 8px rgba(89, 73, 30, 0.16);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .card-header{
@@ -15,33 +16,34 @@
 }
 
 .user-avatar{
+  color: #e3e3e3;
   position: absolute;
   width: 110px;
   height: 110px;
   align-items: center;
-  background-color: white;
+  background-color: #f1f2f2;
   border-radius: 50%;
   top: 90px;
   left: 86px;
-  background-color: rgb(248, 252, 252);
+  border: 5px solid white;
 }
 
-.car-body{
-  width: 286px;
+.card-body{
   height: 120px;
   margin-top: 80px;
+  padding: 0 27px;
   text-align: center;
 }
 
 
-.car-body h5{
+.card-body h5{
   font-size: 18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
   color: gray;
 }
 
-.car-body p{
+.card-body p{
   font-size: 16px;
   font-family: 'Lucida Sans',
   'Lucida Sans Regular',
@@ -57,11 +59,13 @@
 .card-footer ul{
   justify-content: center;
   margin-top: 50px;
+  padding: 0;
+  display: flex;
+  gap: 14px;
 }
 
 .card-footer li{
   list-style: none;
   display: inline;
-  margin-top: 20px;
   color: gray;
 }
